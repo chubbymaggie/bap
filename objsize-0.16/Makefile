@@ -112,3 +112,10 @@ uninstall :
 
 tags:
 	-
+
+distclean: clean
+
+maintainer-clean: distclean
+	@echo "This command is intended for maintainers to use"
+	@echo "it deletes files that may require special tools to rebuild."
+

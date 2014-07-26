@@ -37,3 +37,12 @@ clean:
 
 tags:
 	-
+
+.PHONY: distclean
+distclean: clean
+
+.PHONY: maintainer-clean
+maintainer-clean: distclean
+	@echo "This command is intended for maintainers to use"
+	@echo "it deletes files that may require special tools to rebuild."
+
